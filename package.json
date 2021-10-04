@@ -1,13 +1,13 @@
 {
   "name": "simple-file-db",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple file database based on lowdb",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && npx tsc-alias",
-    "dev": "ts-node -r tsconfig-paths/register --transpile-only src/index.ts"
+    "dev": "ts-node -r tsconfig-paths/register --transpile-only src/example/index.ts"
   },
   "repository": {
     "type": "git",
